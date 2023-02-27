@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.beerPageDescription{
+        color: white;
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+}
+
+
+#pageBoxes{
+  display: grid;
+  grid-auto-flow: column;  
+}
+
+.rendered-beers-picture{
+    width: 100%; 
+    height: 15vw; 
+    object-fit: contain;
+}
+
+.activePage{
+    pointer-events: none;
+    cursor: default;
+    color: grey;
+}
